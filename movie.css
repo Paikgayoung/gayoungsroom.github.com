@@ -16,6 +16,11 @@
   text-transform: uppercase;
 }
 
+.img:hover{
+  filter: none;
+  -webkit-filter: none;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
 
 img {
@@ -64,10 +69,7 @@ margin-bottom: 1vw;
   opacity: 0;
   padding: 20px 30px;
 }
-.workimg:hover{
-  filter: none;
-  -webkit-filter: none;
-}
+
 .workimg figcaption:before,
 .workimg figcaption:after {
   width: 1px;
