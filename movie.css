@@ -64,6 +64,10 @@ margin-bottom: 1vw;
   opacity: 0;
   padding: 20px 30px;
 }
+.workimg:hover{
+  filter: none;
+  -webkit-filter: none;
+}
 .workimg figcaption:before,
 .workimg figcaption:after {
   width: 1px;
